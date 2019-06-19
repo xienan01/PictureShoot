@@ -12,17 +12,17 @@
 
 void main()
 {
-cv::Mat Img;
- srcMat = cv::imread("1.jpg");
- srcMat.copyTo(img);
- srcMat.copyTo(tempMatMat);
- cv::namedWindow("img");//定义一个img窗口 
- cv::setMouseCallback("img", on_mouse, 0);//调用回调函数 
- cv::imshow("img", img);
- cv::waitKey(0);
-}
-
-	return  0;
+	cv::Mat img, tempMatMat;
+	PictureShot PicShotObject;
+	PicShotObject.PicShot();
+	
+	//cv::Mat  srcMat= cv::imread("1.jpg");
+	//srcMat.copyTo(img);
+	//srcMat.copyTo(tempMatMat);
+	//cv::namedWindow("img");//定义一个img窗口 
+	//cv::setMouseCallback("img", on_mouse, 0);//调用回调函数 
+	//cv::imshow("img", img);
+	//cv::waitKey(0);
 }
 
 
